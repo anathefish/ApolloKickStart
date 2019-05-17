@@ -1,0 +1,7 @@
+query GetAllProducts {
+    allProducts(count: 5) {
+        id
+        name
+        price
+    }
+}
